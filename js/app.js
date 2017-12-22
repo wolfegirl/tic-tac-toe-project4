@@ -69,9 +69,9 @@ Game.prototype.hover = function() {
     $('.box').hover(
         function () {
             if ($('#player1').hasClass('active')) {
-                $(this).css('background-image', 'url(../tic-tac-toe-v3/img/o.svg)');
+                $(this).css('background-image', 'url(img/o.svg)');
             } else {
-                $(this).css('background-image', 'url(../tic-tac-toe-v3/img/x.svg)');
+                $(this).css('background-image', 'url(img/x.svg)');
             }
         }, 
         function() {
